@@ -1,0 +1,50 @@
+.portfolio_center{
+    margin-top: 20px;
+}
+
+.port_center_position{
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+.for_port_stl{
+    padding: 0.25em;
+    width: 40em;
+    border: 1px solid #ddd;
+
+}
+.portfolio_part{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.port_center_position .portfolio_part .for_port_photo {
+    position: relative;
+    width: 17em;
+    height: 17em;
+    box-sizing: border-box;
+    margin: 0.5em;
+ }
+ .port_center_position .portfolio_part .portfolio_part_title{
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5em;
+    color: white;
+    background-color: rgba(74, 165, 170, 0.7);
+    left: 0;
+    bottom: 1em;
+ }
+.port_center_position .portfolio_part .for_port_photo img {
+   width: 100%;
+   height: 100%;
+   box-sizing: border-box;
+   
+}

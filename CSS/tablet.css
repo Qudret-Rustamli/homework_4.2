@@ -1,0 +1,144 @@
+/*Center responsiv  (index page)--dizayn start*/
+
+
+
+.navbar{
+    flex-direction: row;
+  
+}
+.navbar h1{
+    width: 100%;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.navbar ul{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.center_position{
+    flex-direction: column;
+    padding: 0.5em;
+}
+.center_position .about_part{
+    width: 100%;
+}
+
+.center_position .contact_part{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/*Center responsiv dizayn end*/
+
+
+/*--------------------------------------------------------------------*/
+
+/*Center responsiv  (portfolio page)--dizayn start*/
+
+.navbar{
+    flex-direction: row;
+  
+}
+.navbar h1{
+    width: 100%;
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.navbar ul{
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+
+
+
+.port_center_position{
+    flex-direction: column;
+    padding: 0.5em;
+}
+.for_port_stl{
+    width: 100%;
+}
+.port_center_position .portfolio_part{
+    flex-direction: row;
+    width: 100%;
+}
+
+.port_center_position .portfolio_part .for_port_photo{
+    width: 40%;
+}
+.port_center_position .portfolio_part .for_port_photo .portfolio_part_title{
+   text-align: center;
+}
+
+.port_center_position .contact_part{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/*Center responsiv  (portfolio-page) dizayn end*/
+
+/*--------------------------------------------------------------------*/
+
+
+
+
+
+
+/*-------contact page responsiv dizayn star----*/
+/* .navbar{
+    flex-direction: column;
+  
+}
+.navbar h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.navbar ul{
+    flex: 100%;
+    justify-content: center;
+}
+ */
+
+ .contact-card{
+    flex-direction: row;
+   
+   
+}
+
+.contact-card .contact-form-part{
+    width: 60%;
+}
+
+.contact-card .elave-panel{
+    width: 100%;
+}
+
+.contact-card .contact_part{
+    width: 37%;
+ }
+
+ .contact-card .contact_part .main-titles{
+    font-size: 1.025em;
+ }
+
+ input,textarea{
+     width: 80%;
+ }
+
+
+
+
+
+
+
+
+/*--------contact page responsiv dizayn---*/

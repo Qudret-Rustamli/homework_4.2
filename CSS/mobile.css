@@ -1,0 +1,126 @@
+/*----Header responsivlik start*/
+
+
+.navbar{
+    flex-direction: column;
+  
+}
+.navbar h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.navbar ul{
+    flex: 100%;
+    justify-content: center;
+}
+
+/*----Header responsivlik start*/
+
+
+
+
+/*Center responsiv  (index page)--dizayn start*/
+.center_position{
+    flex-direction: column;
+    padding: 0.5em;
+}
+.center_position .about_part{
+    width: 100%;
+}
+
+.center_position .contact_part{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/*Center responsiv  (index-page) dizayn end*/
+
+
+/*--------------------------------------------------------------------*/
+
+
+/*Center responsiv  (portfolio page)--dizayn start*/
+.port_center_position{
+    flex-direction: column;
+    padding: 0.5em;
+}
+.for_port_stl{
+    width: 100%;
+}
+.port_center_position .portfolio_part{
+    flex-direction: column;
+    width: 100%;
+}
+
+.port_center_position .portfolio_part .for_port_photo{
+    width: 90%;
+}
+.port_center_position .portfolio_part .for_port_photo .portfolio_part_title{
+   text-align: center;
+}
+
+.port_center_position .contact_part{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/*Center responsiv  (portfolio-page) dizayn end*/
+
+
+
+/*--------------------------------------------------------------------*/
+
+
+
+/*-------contact page responsiv dizayn star----*/
+/* .navbar{
+    flex-direction: column;
+  
+}
+.navbar h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.navbar ul{
+    flex: 100%;
+    justify-content: center;
+}
+ */
+
+.contact-card{
+    flex-direction: column;
+   
+   
+   
+}
+
+.contact-card .contact-form-part{
+    width: 100%;
+}
+
+.contact-card .elave-panel{
+    width: 100%;
+}
+
+.contact-card .contact_part{
+    width: 100%;
+    margin-top: 20px;
+}
+button{
+    width: 80%;
+}
+input,textarea{
+    width: 85%;
+}
+
+
+
+
+
+/*--------contact page responsiv dizayn---*/

@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/concrete_seamless.png);
+}
+.text-center{
+    text-align: center;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-green{
+    background-color: rgb(74, 165, 170);
+}
+
+.bg-photo{
+    background: url(../images/concrete_seamless.png);
+}
+
+.color-white{
+    color: white;
+}
+
+.color-green{
+    color: rgb(74, 165, 170);
+}
+
+.font-size{
+    font-size: 1.5em;
+}
+
+
+.header-size{
+    width: 100%;
+    height: auto;
+}
+.header-border{
+    border-bottom: 5px solid #ededed;
+}
+
+/*---Nvabar container start---*/
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.mesafe{
+    margin-left: 2.7em;
+    margin-right: 2.7em;
+    font-size: 1em;
+    color: #666;
+}
+
+
+/*---Nvabar container end---*/
+
+
+
+/*------Navbar hisse start---*/
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*------Navbar hisse end---*/
+
+
+
+/*--------Logo Style start-----*/
+
+.logo-style{
+    width: 9em;
+    font-size: 1.5em;  
+    font-weight: bold;
+    padding: 0.5em;
+    color: #fff;
+    background: rgb(74, 165, 170);
+}
+
+/*--------Logo Style end-----*/
+
+
+/*------------------------------------------------------------------------*/
+
+
+
+/*--------Link-menu Style start-----*/
+.txt-dec-none{
+    text-decoration: none !important;
+    color: #666;
+    padding-right: 0.5em;
+    border-right: 0.5px solid #eded;
+}
+.lst-dec-none{
+    list-style-type: none !important;
+}
+
+.a-duzelis{
+    padding-left: 0.5em;
+}
+.link-menu-style{
+   display: flex;
+   font-size: 1.2em;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+}
+
+ .navbar ul li a:hover{
+    opacity: 0.5;
+    color: #666;
+    border: 1px solid #666;
+    border-radius: 5px;
+    padding: .25em;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+/*--------Link-men Style end-----*/
+
+.main-titles{
+    color: rgb(74, 165, 170);
+    font-weight: bold;
+    font-size: 1.7em;
+    margin:0.5em 0.5em 0.5em 2em;
+}
+
+hr{
+    margin: 0.5em 2em 0.5em 2em;
+    border-width: 1px;
+}
+/*---------*/
+
+.center_position{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*------- Contact With Me dizayn start-----*/
+.contact_part{
+    border: 1px solid #ddd;
+    width: 18em;
+    max-height: 12em;
+    padding: 0.5em 0.5em 2em 0.5em;
+
+}
+.contact_part .contacts_area{
+    
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.about_part{
+
+}
+.contact_part .contacts_area .for_icon{
+    width: 50px;
+    height: 50px;
+
+}
+
+.contact_part .contacts_area .for_icon img{
+    width: 100%;
+
+}
+
+
+
+/*------- Contact With Me dizayn End-----*/
+
+
+
+
+/*------- Footer Dizayn-----*/
+
+
+.footer_dizayn{
+    
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    background: #666;
+    color: #999;
+    padding: 1em;
+    margin-top: 50px;
+    border-top: 10px solid green;
+}
